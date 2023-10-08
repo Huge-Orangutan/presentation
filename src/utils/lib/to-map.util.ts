@@ -1,4 +1,10 @@
-export const toMap = <T extends Record<string, any>>(
+/**
+ * 将数组转化为对象
+ * @param array 
+ * @param key 
+ * @returns 
+ */
+export const toObject = <T extends Record<string, any>>(
   array: T[],
   key: keyof T
 ) => {
