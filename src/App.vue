@@ -1,10 +1,11 @@
 <template>
-   
+    <Design />
+    <Show />
 </template>
 
-<script setup lang="ts">
-   
+<script lang="ts" setup>
+import Design from '@/layouts/design.layout.vue'
+import Show from '@/layouts/show.layout.vue'
 </script>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
